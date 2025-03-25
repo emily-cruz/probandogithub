@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8" />
+    <title>ejercicio formulario</title>
+    <meta charset="utt-8"/>
+</head>
+<body>
+    <form action="#" name="solucionformulario">
+        <label for="nombre">nombre:</label>
+         <input type="text" id="nombre" placeholder="escribe tu nombre" maxlength="30">
+
+        <label for="email">email</label>
+         <input type= "text" id="email" placeholder="correo@empresa.com" required maxlen="30">
+
+         <label for="asunto">asunto</label>
+         <select name="asunto" id="asunto" size="3">
+            <option value="informacionweb">pedir informacion web</option>
+            <option value= "citaprevia">solicitar cita previa</option>
+            <option value= "otros">otros</option>
+            
+         </select>
+
+         <label for="marketing">¿como nos has conocido?</label>
+         <div class="marketing"></div>
+        <input type="checkbox" value="amigo" id="amigo"><label for="amigo">un amigo</label>
+        <input type="checkbox" value="google" id="googleando"><label for="googleando">googleando</label>
+        <input type="checkbox" value="red social" id="red social"><label for="red social">redes sociales</label>
+        <input type="checkbox" value="otros" id="otros"><label for="otros">otros</label>
+        </div>
+
+        <label for="mensaje">escribe tu mensaje</label>
+        <textarea name="mensaje"maxlength="300"></textarea>
+
+        <input fype="checkbox" value="acepta_RGPD" id="rgpd" required><label for="rgpd" class="rgpd">he leido y acepto el <a href="#" target="_blanck">aviso legal y la politica cde privacidad</a></label>
+    </form>
+    </body>
+    </html>
